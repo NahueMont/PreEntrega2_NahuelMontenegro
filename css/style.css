@@ -15,6 +15,18 @@ html {
     height: 100%;
 }
 
+/* Hacer funcionar esto la próxima, para que el scrollbar no mueva el contenido de las páginas reservando espacio! ↓↓↓ */
+
+body {
+    overflow-y: hidden;
+    scrollbar-gutter: stable both-edges;  
+}
+
+.body2 {
+    overflow-y: auto;
+    scrollbar-gutter: stable both-edges;  
+}
+
 /* HEADER */
 
 .header {
@@ -50,6 +62,45 @@ html {
 }
 
 /* FIN DEL HEADER */
+
+/* HEADER BOOTSTRAP */
+
+.navbar {
+    background: rgb(252,252,252);
+    background: linear-gradient(90deg, rgba(252,252,252,1) 0%, rgba(51,131,131,1) 88%, rgba(17,92,107,1) 100%);
+    height: 13vh;
+    z-index: 1010;
+}
+
+.container-fluid {
+    display: flex;
+}
+
+.smt {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    justify-content: space-evenly;
+    font-family: "Titulo";
+}
+
+.nav-link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+/* FIN HEADER BOOTSTRAP */
 
 /* INDEX */
 
