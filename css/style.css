@@ -31,6 +31,7 @@ html {
     text-transform: uppercase;
     padding: 15px;
     height: 100%;
+    display: block;
 }
 
 .nav ul {
