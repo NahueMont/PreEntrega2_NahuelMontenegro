@@ -126,7 +126,7 @@ body {
 /* FINALES */
 
 #main-finales {
-    min-height: calc(100vh - 13vh - 13vh);
+    min-height: calc(100vh - 13vh - 14vh);
 }
 
 .fondomundiales {
@@ -161,7 +161,7 @@ body {
 /* PREVIA DE LOS MUNDIALES */
 
 #main-previa {
-    min-height: calc(100vh - 13vh - 13vh);
+    min-height: calc(100vh - 13vh - 14vh);
     width: 100%;
 }
 
@@ -293,7 +293,7 @@ body {
 /* QATAR 2022 */
 
 #main-qatar {
-    min-height: calc(100vh - 13vh - 13vh);
+    min-height: calc(100vh - 13vh - 14vh);
     background-image: url(../resources/FondoQatar.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -354,7 +354,7 @@ body {
 /* COINCIDENCIAS */
 
 #main-coincidencias {
-    min-height: calc(100vh - 13vh - 13vh);
+    min-height: calc(100vh - 13vh - 14vh);
     background-image: url(../resources/Coincidencias.jpg);
     background-repeat: repeat;
     background-size: 100%;
@@ -385,10 +385,10 @@ body {
 /* FOOTER */
 
 .footer {  
-    height: 13vh;
-    bottom: 0;
+    height: 14vh;
     background: rgb(252,252,252);
     background: linear-gradient(90deg, rgba(252,252,252,1) 0%, rgba(51,131,131,1) 88%, rgba(17,92,107,1) 100%);
+    padding-bottom: 1rem;
 }
 
 .card-body {
@@ -409,6 +409,13 @@ body {
 /* MEDIA QUERIES */
 
 @media (max-width:991px){
+
+    body {
+        -webkit-overflow-scrolling: touch;
+        max-height: 100vh;
+        overflow: scroll;
+      }
+      
     .navbar-toggler {
         background-color: rgb(2, 99, 163);
     }
@@ -475,6 +482,13 @@ body {
 }
 
 @media (max-width:614px){
+
+    body {
+        -webkit-overflow-scrolling: touch;
+        max-height: 100vh;
+        overflow: scroll;
+      }
+
     .navbar-toggler {
         background-color: rgb(2, 99, 163);
     }
