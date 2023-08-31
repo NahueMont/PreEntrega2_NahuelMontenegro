@@ -22,7 +22,7 @@ html {
 
 body {
     overflow-y: hidden;
-    scrollbar-gutter: stable both-edges;  
+    scrollbar-gutter: stable both-edges; 
 }
 
 .body2 {
@@ -92,14 +92,13 @@ body {
     position: sticky;
     text-align: center;
     top: 8rem;
-    background-color: black; 
 }
 
 .campeones {
     color: #0400d4b9;
     font-family: "Titulo";
     font-weight: 900;
-    font-size: 65px;
+    font-size: 4rem;
 }
 
 .caja-boton {
@@ -415,7 +414,7 @@ body {
         max-height: 100vh;
         overflow: scroll;
       }
-      
+
     .navbar-toggler {
         background-color: rgb(2, 99, 163);
     }
@@ -439,7 +438,7 @@ body {
     }
     
     .campeones {
-        color: #020064;
+        color: #0263A3;
         font-family: 'Titulo';
         font-weight: 900;
         font-size: 4.063rem;
@@ -512,7 +511,7 @@ body {
     }
     
     .campeones {
-        color: #020064;
+        color: #0263A3;
         font-family: 'Titulo';
         font-weight: 900;
         font-size: 4.063rem;
