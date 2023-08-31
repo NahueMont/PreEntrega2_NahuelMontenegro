@@ -39,10 +39,6 @@ body {
     z-index: 1010;
 }
 
-.container-fluid {
-    display: flex;
-}
-
 .smt {
     display: flex;
     width: 100%;
@@ -85,7 +81,7 @@ body {
 
 #main-index {
     background-image: url(../resources/20221203_185725.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: 100%;
     height: 74vh;
     overflow: hidden;
@@ -95,9 +91,8 @@ body {
     display: inline;
     position: sticky;
     text-align: center;
-    top: 200px;
-    background-color: black;
-    
+    top: 8rem;
+    background-color: black; 
 }
 
 .campeones {
@@ -158,7 +153,7 @@ body {
     font-weight: 900;
     font-size: 1.3rem;
     font-family: 'Titulo';
-    color: rgb(0, 98, 163)!important;
+    color: rgb(255, 255, 255)!important;
 }
 
 /* FIN DE FINALES */
@@ -306,7 +301,7 @@ body {
 #main-coincidencias {
     min-height: calc(100vh - 13vh - 13vh);
     background-image: url(../resources/Coincidencias.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: 100%;
     background-attachment: fixed;
     background-position-y: top;
@@ -341,15 +336,103 @@ body {
     background: linear-gradient(90deg, rgba(252,252,252,1) 0%, rgba(51,131,131,1) 88%, rgba(17,92,107,1) 100%);
 }
 
-.footer p {
-    height: 100%;
-    justify-content: center;
-    align-items: center;
+.card-body {
     text-align: center;
-    display: flex;
+    background: rgb(252,252,252);
+    background: linear-gradient(90deg, rgba(252,252,252,1) 0%, rgba(51,131,131,1) 88%, rgba(17,92,107,1) 100%);
+}
+.card-title {
     color: black;
     font-weight: bold;
-    padding: 10px;
+    font-family: 'Titulo';
+    font-size: 1.1rem;
+}
+
+@media (max-width:991px){
+    .navbar-toggler {
+        background-color: rgb(2, 99, 163);
+    }
+
+    .navbar-nav {
+        background-color: rgb(2, 99, 163);
+    }
+
+    .nav-link {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .caja-campeones {
+        display: inline;
+        position: fixed;
+        text-align: center;
+        top: 10rem;
+        background-color: transparent; 
+    }
+    
+    .campeones {
+        color: #020064;
+        font-family: 'Titulo';
+        font-weight: 900;
+        font-size: 4.063rem;
+    }
+
+    #main-coincidencias {
+        min-height: calc(100vh - 13vh - 13vh);
+        background-image: url(../resources/Coincidencias.jpg);
+        background-repeat: repeat;
+        background-size: 100%;
+        background-attachment: fixed;
+        background-position-y: top;
+    }
+}
+
+@media (max-width:614px){
+    .navbar-toggler {
+        background-color: rgb(2, 99, 163);
+    }
+
+    .navbar-nav {
+        background-color: rgb(2, 99, 163);
+    }
+
+    .nav-link {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .caja-campeones {
+        display: inline;
+        position: fixed;
+        text-align: center;
+        top: 7rem;
+        background-color: transparent; 
+    }
+    
+    .campeones {
+        color: #020064;
+        font-family: 'Titulo';
+        font-weight: 900;
+        font-size: 4.063rem;
+    }
+
+    #main-coincidencias {
+        min-height: calc(100vh - 13vh - 13vh);
+        background-image: url(../resources/Coincidencias.jpg);
+        background-repeat: repeat;
+        background-size: 100%;
+        background-attachment: fixed;
+        background-position-y: top;
+    }
+
+    .footer {  
+        height: 13vh;
+        bottom: 0;
+        background: rgb(252,252,252);
+        background: linear-gradient(90deg, rgba(252,252,252,1) 0%, rgba(51,131,131,1) 88%, rgba(17,92,107,1) 100%);
+    }
 }
 
 /* FIN DEL FOOTER */
